@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Lemuel Delos Reyes" />
+    <meta name="copyright" content="Copyright Owner" />
+    <meta name="description" content="portfolio" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/svg" href="./media/favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./styles/style.css"
+      media="screen"
+    />
+
+    <title>Lemuel Delos Reyes</title>
+  </head>
+
+  <body>
+    <div class="banner"></div>
+
+    <!--hamburger -->
+    <div id="menu-bar">
+      <div id="menu" onclick="onClickMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+
+      <ul class="nav" id="nav">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+
+      <div class="menu-bg" id="menu-bg"></div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+
+    <!--header -->
+    <div class="header">
+      <h1><span>WELCOME TO MY PAGE</span></h1>
+      <br />
+      <p>JUNIOR WEB DEVELOPER</p>
+      <img src="./media/dot 1.svg" />
+      <p>UI/UX DESIGNER</p>
+      <img src="./media/dot 2.svg" />
+      <p>GRAPHIC DESIGNER</p>
+      <div>
+        <a href="#" class="btn1">DOWNLOAD CV</a>
+        <a href="#about" class="btn2"
+          >READ MORE <img src="./media/arrow.svg"
+        /></a>
+      </div>
+    </div>
+
+    <!--navigation -->
+    <div class="navigation">
+      <img src="./media/LOGO.svg" class="logo" />
+      <ul>
+        <li class="active"><a href="#">HOME</a></li>
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+
+    <!--about -->
+    <div id="about" class="about-me">
+      <h1><span>ABOUT ME</span></h1>
+
+      <img src="./media/Profile.png" alt="profile-pic" />
+
+      <p>
+        Hi, I'm <b>LEM</b>! I am a Philippine-based Web Designer and Developer
+        whose fond of creating creative and functional websites. I'm a computer
+        proficient individual who is into structures, orders, functionality, and
+        design that's why Web Developing captures my heart and interest.
+        <br />
+        <br />
+        Responsive, Versatile, Fast, and Dynamic functions are my personal goal
+        and objective in making output to each of my projects.
+      </p>
+    </div>
+
+    <!--skills -->
+
+    <div id="skills" class="skills">
+      <h1><span>MY SKILLS</span></h1>
+
+      <!--SVG -->
+      <div class="svg-sect">
+        <div class="box1">
+          <img src="./media/HTML.svg" alt="html-svg" />
+          <svg viewBox="-40 -110 200 350">
+            <circle cx="70" cy="70" r="50" class="color1"></circle>
+            <circle cx="70" cy="70" r="50" class="color2"></circle>
+          </svg>
+
+          <div class="counter">
+            <span>90%</span>
+          </div>
+        </div>
+
+        <!-- boxes -->
+        <div class="box2">
+          <img src="./media/CSS.svg" alt="css-svg" />
+          <svg viewBox="-40 -110 200 350">
+            <circle cx="70" cy="70" r="50" class="color1"></circle>
+            <circle cx="70" cy="70" r="50" class="color2"></circle>
+          </svg>
+
+          <div class="counter">
+            <span>85%</span>
+          </div>
+        </div>
+
+        <div class="box3">
+          <img src="./media/SASS.svg" alt="sass-svg" />
+          <svg viewBox="-40 -110 200 350">
+            <circle cx="70" cy="70" r="50" class="color1"></circle>
+            <circle cx="70" cy="70" r="50" class="color2"></circle>
+          </svg>
+
+          <div class="counter">
+            <span>90%</span>
+          </div>
+        </div>
+
+        <div class="box4">
+          <img src="./media/JS.svg" alt="sass-svg" />
+          <svg viewBox="-40 -110 200 350">
+            <circle cx="70" cy="70" r="50" class="color1"></circle>
+            <circle cx="70" cy="70" r="50" class="color2"></circle>
+          </svg>
+
+          <div class="counter">
+            <span>70%</span>
+          </div>
+        </div>
+
+        <div class="box5">
+          <img src="./media/PHP.svg" alt="sass-svg" />
+          <svg viewBox="-40 -110 200 350">
+            <circle cx="70" cy="70" r="50" class="color1"></circle>
+            <circle cx="70" cy="70" r="50" class="color2"></circle>
+          </svg>
+
+          <div class="counter">
+            <span>75%</span>
+          </div>
+        </div>
+        <!-- end of boxes -->
+      </div>
+      <!-- end of SVG -->
+    </div>
+    <!-- end of skills -->
+
+    <div id="contact"></div>
+    <div class="envelop">
+      <div class="left"></div>
+      <div class="right"></div>
+      <div class="back"></div>
+    </div>
+
+    <div class="contact">
+      <h1><span>CONTACT ME</span></h1>
+
+      <div class="contact-me">
+        <ul>
+          <li><i class="fa fa-mobile"></i> <span>+639293725077</span></li>
+          <li>
+            <i class="fa fa-envelope"></i>
+            <span>delosreyeslemtot@gmail.com</span>
+          </li>
+        </ul>
+      </div>
+      <div class="social-menu">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/lemtotdlsrys/" target="_blank"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/lemueldlsrys" target="_blank"
+              ><i class="fa fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/lem_dvr/" target="_blank"
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/lemuel-delos-reyes-2512b2189/"
+              target="_blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="footer" class="footer">
+      <img src="./media/favicon.svg" alt="logo" />
+      <p>Developed by: Lemuel Delos Reyes © 2021</p>
+    </div>
+  </body>
+</html>
