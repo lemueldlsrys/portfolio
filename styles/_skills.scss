@@ -1,0 +1,387 @@
+.skills {
+  background-color: rgb(240, 240, 240);
+  height: 70vh;
+  padding-bottom: 5%;
+  padding-top: 10%;
+
+  h1 {
+    text-align: center;
+    font-size: $primaryFont-size;
+
+    span {
+      border: 4px solid rgb(0, 0, 0);
+      padding: 10px 25px;
+      box-shadow: 1px 1px 3px rgb(109, 109, 109);
+      background-color: #e0dfdf93;
+    }
+  }
+
+  .svg-sect {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 1%;
+    padding-bottom: 5%;
+
+    // html progress bars
+    .box1 {
+      position: relative;
+      margin-top: 5%;
+      padding: 1%;
+      height: 250px;
+      width: 13%;
+      margin-right: 5%;
+      margin-left: 5%;
+      border-radius: 5px;
+      transition: 0.3s;
+      box-shadow: 1px 2px 5px rgb(109, 109, 109);
+      background-color: #e0dfdf93;
+
+      img {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      svg {
+        position: absolute;
+        width: 100%;
+        top: 35%;
+        transform: translate(-8%, -17%) rotate(-90deg);
+
+        .color1 {
+          fill: transparent;
+          stroke: rgb(185, 183, 183);
+          stroke-width: 12px;
+          stroke-dashoffset: 200;
+          stroke-linecap: round;
+        }
+
+        .color2 {
+          fill: transparent;
+          stroke: rgb(34, 34, 34);
+          stroke-width: 12px;
+          stroke-dasharray: 555;
+          stroke-dashoffset: 300;
+          stroke-linecap: round;
+        }
+      }
+
+      .counter {
+        position: absolute;
+        top: 70%;
+        left: 49%;
+        width: 100%;
+        height: 50px;
+        color: rgb(34, 34, 34);
+        transform: translate(-46%, -25%);
+        text-align: center;
+
+        span {
+          font-size: 1.8vw;
+          font-weight: bold;
+          transition: 0.3s;
+          color: rgb(82, 81, 81);
+        }
+      }
+
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      &:hover .counter span {
+        font-size: 2.1vw;
+        color: rgb(41, 40, 40);
+      }
+    }
+
+    .box2 {
+      position: relative;
+      margin-top: 5%;
+      padding: 1%;
+      height: 250px;
+      width: 13%;
+      margin-right: 5%;
+      border-radius: 5px;
+      box-shadow: 1px 2px 5px rgb(109, 109, 109);
+      background-color: #e0dfdf93;
+      transition: 0.3s;
+
+      img {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      svg {
+        position: absolute;
+        width: 100%;
+        top: 35%;
+        transform: translate(-8%, -17%) rotate(-90deg);
+
+        .color1 {
+          fill: transparent;
+          stroke: rgb(185, 183, 183);
+          stroke-width: 12px;
+          stroke-dashoffset: 200;
+          stroke-linecap: round;
+        }
+
+        .color2 {
+          fill: transparent;
+          stroke: rgb(34, 34, 34);
+          stroke-width: 12px;
+          stroke-dasharray: 540;
+          stroke-dashoffset: 300;
+          stroke-linecap: round;
+        }
+      }
+
+      .counter {
+        position: absolute;
+        top: 70%;
+        left: 49%;
+        width: 100%;
+        height: 50px;
+        color: rgb(34, 34, 34);
+        transform: translate(-46%, -25%);
+        text-align: center;
+
+        span {
+          font-size: 1.8vw;
+          font-weight: bold;
+          transition: 0.3s;
+          color: rgb(82, 81, 81);
+        }
+      }
+
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      &:hover .counter span {
+        font-size: 2.1vw;
+        color: rgb(41, 40, 40);
+      }
+    }
+
+    .box3 {
+      position: relative;
+      margin-top: 5%;
+      padding: 1%;
+      height: 250px;
+      width: 13%;
+      margin-right: 5%;
+      border-radius: 5px;
+      box-shadow: 1px 2px 5px rgb(109, 109, 109);
+      background-color: #e0dfdf93;
+      transition: 0.3s;
+
+      img {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      svg {
+        position: absolute;
+        width: 100%;
+        top: 35%;
+        transform: translate(-8%, -17%) rotate(-90deg);
+
+        .color1 {
+          fill: transparent;
+          stroke: rgb(185, 183, 183);
+          stroke-width: 12px;
+          stroke-dashoffset: 200;
+          stroke-linecap: round;
+        }
+
+        .color2 {
+          fill: transparent;
+          stroke: rgb(34, 34, 34);
+          stroke-width: 12px;
+          stroke-dasharray: 555;
+          stroke-dashoffset: 300;
+          stroke-linecap: round;
+        }
+      }
+
+      .counter {
+        position: absolute;
+        top: 70%;
+        left: 49%;
+        width: 100%;
+        height: 50px;
+        color: rgb(34, 34, 34);
+        transform: translate(-46%, -25%);
+        text-align: center;
+
+        span {
+          font-size: 1.8vw;
+          font-weight: bold;
+          transition: 0.3s;
+          color: rgb(82, 81, 81);
+        }
+      }
+
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      &:hover .counter span {
+        font-size: 2.1vw;
+        color: rgb(41, 40, 40);
+      }
+    }
+
+    .box4 {
+      position: relative;
+      margin-top: 5%;
+      padding: 1%;
+      height: 250px;
+      width: 13%;
+      margin-right: 5%;
+      border-radius: 5px;
+      box-shadow: 1px 2px 5px rgb(109, 109, 109);
+      background-color: #e0dfdf93;
+      transition: 0.3s;
+
+      img {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      svg {
+        position: absolute;
+        width: 100%;
+        top: 35%;
+        transform: translate(-8%, -17%) rotate(-90deg);
+
+        .color1 {
+          fill: transparent;
+          stroke: rgb(185, 183, 183);
+          stroke-width: 12px;
+          stroke-dashoffset: 200;
+          stroke-linecap: round;
+        }
+
+        .color2 {
+          fill: transparent;
+          stroke: rgb(34, 34, 34);
+          stroke-width: 12px;
+          stroke-dasharray: 515;
+          stroke-dashoffset: 300;
+          stroke-linecap: round;
+        }
+      }
+
+      .counter {
+        position: absolute;
+        top: 70%;
+        left: 49%;
+        width: 100%;
+        height: 50px;
+        color: rgb(34, 34, 34);
+        transform: translate(-46%, -25%);
+        text-align: center;
+
+        span {
+          font-size: 1.8vw;
+          font-weight: bold;
+          transition: 0.3s;
+          color: rgb(82, 81, 81);
+        }
+      }
+
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      &:hover .counter span {
+        font-size: 2.1vw;
+        color: rgb(41, 40, 40);
+      }
+    }
+
+    .box5 {
+      position: relative;
+      margin-top: 5%;
+      height: 250px;
+      padding: 1%;
+      width: 13%;
+      margin-right: 5%;
+      border-radius: 5px;
+      box-shadow: 1px 2px 5px rgb(109, 109, 109);
+      background-color: #e0dfdf93;
+      transition: 0.3s;
+
+      img {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      svg {
+        position: absolute;
+        width: 100%;
+        top: 35%;
+        transform: translate(-8%, -17%) rotate(-90deg);
+
+        .color1 {
+          fill: transparent;
+          stroke: rgb(185, 183, 183);
+          stroke-width: 12px;
+          stroke-dashoffset: 200;
+          stroke-linecap: round;
+        }
+
+        .color2 {
+          fill: transparent;
+          stroke: rgb(34, 34, 34);
+          stroke-width: 12px;
+          stroke-dasharray: 525;
+          stroke-dashoffset: 300;
+          stroke-linecap: round;
+        }
+      }
+
+      .counter {
+        position: absolute;
+        top: 70%;
+        left: 49%;
+        width: 100%;
+        height: 50px;
+        color: rgb(34, 34, 34);
+        transform: translate(-46%, -25%);
+        text-align: center;
+
+        span {
+          font-size: 1.8vw;
+          font-weight: bold;
+          transition: 0.3s;
+          color: rgb(82, 81, 81);
+        }
+      }
+
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      &:hover .counter span {
+        font-size: 2.1vw;
+        color: rgb(41, 40, 40);
+      }
+    }
+  }
+}

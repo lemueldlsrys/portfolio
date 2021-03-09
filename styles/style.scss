@@ -1,0 +1,66 @@
+@import "./variables";
+@import "./hamburger";
+@import "./header";
+@import "./about";
+@import "./skills";
+@import "./contact";
+@import "./footer";
+@import "./media-queries";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $primaryFont;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.576), rgba(0, 0, 0, 0.344)),
+    url(/media/BANNER2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 30px;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 15px;
+}
+
+// navigation
+
+.navigation {
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: #303030f3;
+  box-shadow: -2px 3px 3px 1px grey;
+  justify-content: space-between;
+
+  ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    right: 5%;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+  }
+}
+
+// end of navigation

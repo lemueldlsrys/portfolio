@@ -1,0 +1,546 @@
+@media only screen and (max-width: 1200px) {
+  .about-me {
+    height: 70vh;
+
+    h1 {
+      font-size: $secondaryFont-size;
+    }
+
+    img {
+      width: 25%;
+      float: right;
+      margin-right: 10%;
+      margin-top: 5%;
+    }
+
+    p {
+      font-size: 17px;
+      margin-top: 9%;
+    }
+  }
+
+  .skills .svg-sect {
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+      height: 220px;
+    }
+  }
+
+  .contact {
+    height: 50vh;
+
+    h1 {
+      font-size: $secondaryFont-size;
+    }
+
+    .contact-me {
+      transform: translate(-50%, 50%);
+
+      li {
+        .fa-mobile {
+          font-size: 70px;
+          transform: translateY(20%);
+        }
+        .fa-envelope {
+          font-size: 45px;
+          transform: translateY(15%);
+        }
+
+        span {
+          font-size: $primaryFont-size;
+        }
+      }
+    }
+
+    .social-menu ul {
+      transform: translate(-60%, 100%);
+
+      li {
+        list-style: none;
+        margin: 10px 10px;
+
+        .fa {
+          color: #000000;
+          font-size: 30px;
+          line-height: 80px;
+          transition: 0.3s;
+        }
+        a {
+          width: 70px;
+          height: 70px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .about-me {
+    height: 70vh;
+
+    h1 {
+      font-size: $secondaryFont-size;
+    }
+
+    img {
+      width: 25%;
+      float: right;
+      margin-right: 10%;
+      margin-top: 12%;
+    }
+
+    p {
+      font-size: 17px;
+      margin-top: 9%;
+    }
+  }
+
+  .envelop {
+    height: 15vh;
+  }
+
+  .skills {
+    height: 40vh;
+
+    h1 {
+      font-size: $secondaryFont-size;
+    }
+    .svg-sect {
+      .box1,
+      .box2,
+      .box3,
+      .box4,
+      .box5 {
+        height: 150px;
+      }
+    }
+  }
+  .contact {
+    height: 40vh;
+
+    h1 {
+      font-size: $secondaryFont-size;
+    }
+
+    .contact-me {
+      transform: translate(-50%, 50%);
+
+      li {
+        .fa-mobile {
+          font-size: 50px;
+          transform: translateY(20%);
+        }
+        .fa-envelope {
+          font-size: 25px;
+          transform: translateY(15%);
+        }
+
+        span {
+          font-size: $secondaryFont-size;
+        }
+      }
+    }
+
+    .social-menu ul {
+      transform: translate(-60%, 100%);
+
+      li {
+        list-style: none;
+        margin: 10px 10px;
+
+        .fa {
+          color: #000000;
+          font-size: 25px;
+          line-height: 55px;
+          transition: 0.3s;
+        }
+        a {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .banner {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .navigation {
+    opacity: 0;
+  }
+
+  .navigation ul li {
+    display: none;
+  }
+
+  .logo {
+    opacity: 0;
+  }
+
+  #menu {
+    opacity: 1;
+    width: 30px;
+    height: 25px;
+  }
+
+  .header p {
+    font-size: $tertiaryFont-size;
+  }
+
+  .header h1 {
+    font-size: $secondaryFont-size;
+  }
+
+  .header {
+    top: 15%;
+  }
+
+  .about-me {
+    height: 70vh;
+
+    h1 {
+      font-size: $tertiaryFont-size;
+    }
+
+    img {
+      width: 30%;
+      margin-top: 5%;
+      margin-right: 35%;
+    }
+
+    p {
+      text-align: center;
+      width: 80%;
+      margin-top: 40%;
+      font-size: $tertiaryFont-size;
+    }
+  }
+
+  .skills {
+    height: 30vh;
+
+    h1 {
+      font-size: $tertiaryFont-size;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .svg-sect {
+      .box1,
+      .box2,
+      .box3,
+      .box4,
+      .box5 {
+        height: 110px;
+      }
+    }
+  }
+
+  .envelop {
+    height: 10vh;
+  }
+
+  .contact {
+    height: 30vh;
+    padding-bottom: 10%;
+    padding-top: 5%;
+
+    h1 {
+      font-size: $tertiaryFont-size;
+    }
+
+    .contact-me {
+      transform: translate(-50%, 50%);
+
+      li {
+        .fa-mobile {
+          font-size: 40px;
+          transform: translateY(20%);
+        }
+        .fa-envelope {
+          font-size: 25px;
+          transform: translateY(15%);
+        }
+
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .social-menu ul {
+      transform: translate(-65%, 70%);
+
+      li {
+        list-style: none;
+        margin: 7px 7px;
+
+        .fa {
+          color: #000000;
+          font-size: 20px;
+          line-height: 45px;
+          transition: 0.3s;
+        }
+        a {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .banner {
+    height: 100vh;
+  }
+
+  .navigation {
+    position: fixed;
+    box-shadow: -2px 3px 3px 1px rgb(58, 58, 58);
+  }
+
+  .navigation ul li {
+    display: none;
+  }
+
+  .logo {
+    opacity: 0;
+  }
+
+  #menu {
+    opacity: 1;
+    width: 30px;
+    height: 25px;
+  }
+
+  .header {
+    top: 35%;
+
+    p {
+      font-size: $tertiaryFont-size;
+    }
+  }
+
+  .about-me {
+    height: 50vh;
+
+    img {
+      margin-top: 7%;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .skills {
+    height: 20vh;
+
+    img {
+      margin-top: 5%;
+    }
+
+    span {
+      font-size: $tertiaryFont-size;
+    }
+
+    .svg-sect {
+      margin-top: 5%;
+
+      .box1,
+      .box2,
+      .box3,
+      .box4,
+      .box5 {
+        height: 85px;
+
+        .counter {
+          transform: translate(-46%, -25%);
+        }
+      }
+    }
+  }
+
+  .envelop {
+    height: 4vh;
+  }
+
+  .contact {
+    height: 15vh;
+    padding-bottom: 10%;
+    padding-top: 10%;
+
+    h1 {
+      font-size: $tertiaryFont-size;
+    }
+
+    .contact-me {
+      transform: translate(-50%, 30%);
+
+      li {
+        .fa-mobile {
+          font-size: 30px;
+          transform: translateY(20%);
+        }
+        .fa-envelope {
+          font-size: 15px;
+          transform: translateY(15%);
+        }
+
+        span {
+          font-size: $tertiaryFont-size;
+        }
+      }
+    }
+
+    .social-menu ul {
+      transform: translate(-65%, 40%);
+
+      li {
+        list-style: none;
+        margin: 5px 5px;
+
+        .fa {
+          color: #000000;
+          font-size: 15px;
+          line-height: 30px;
+          transition: 0.3s;
+
+          &:hover {
+            color: #ffffff;
+          }
+        }
+        a {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    height: 5vh;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .navigation {
+    width: 100%;
+    height: 3rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.508);
+  }
+
+  .navigation ul {
+    opacity: 0;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+
+  .about-me {
+    height: 60vh;
+
+    img {
+      margin-top: 7%;
+    }
+
+    p {
+      font-size: 10px;
+    }
+  }
+
+  .skills {
+    height: 30vh;
+
+    img {
+      margin-top: 5%;
+    }
+
+    span {
+      font-size: $tertiaryFont-size;
+    }
+
+    .svg-sect {
+      margin-top: 5%;
+
+      .box1,
+      .box2,
+      .box3,
+      .box4,
+      .box5 {
+        height: 85px;
+
+        .counter {
+          transform: translate(-46%, -30%);
+        }
+      }
+    }
+  }
+
+  .contact {
+    height: 20vh;
+    padding-bottom: 15%;
+    padding-top: 10%;
+
+    h1 {
+      font-size: $tertiaryFont-size;
+    }
+
+    .contact-me {
+      transform: translate(-50%, 30%);
+
+      li {
+        .fa-mobile {
+          font-size: 30px;
+          transform: translateY(20%);
+        }
+        .fa-envelope {
+          font-size: 20px;
+          transform: translateY(15%);
+        }
+
+        span {
+          font-size: $tertiaryFont-size;
+        }
+      }
+    }
+
+    .social-menu ul {
+      transform: translate(-70%, 40%);
+
+      li {
+        list-style: none;
+        margin: 5px 5px;
+
+        .fa {
+          color: #000000;
+          font-size: 15px;
+          line-height: 30px;
+          transition: 0.3s;
+
+          &:hover {
+            color: #ffffff;
+          }
+        }
+        a {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}

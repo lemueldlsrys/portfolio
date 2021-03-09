@@ -1,0 +1,88 @@
+#menu {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 5%;
+  width: 35px;
+  height: 30px;
+  opacity: 1;
+  cursor: pointer;
+  opacity: 0;
+  margin: 15px 10px 0px -10px;
+}
+
+.bar {
+  height: 4px;
+  width: 80%;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  background-color: #ffffff;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+#bar3 {
+  transform: translateY(4px);
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3 {
+  transform: translateY(-4px) rotate(45deg);
+}
+.change #bar2 {
+  opacity: 0;
+}
+
+.nav {
+  z-index: 2;
+  position: fixed;
+  top: 5%;
+  left: 0;
+  transition: 0.3s ease;
+  cursor: pointer;
+  margin: 0px 50px;
+  opacity: 0;
+}
+
+.nav li {
+  list-style: none;
+  padding: 16px 0;
+}
+
+.nav a {
+  color: #ffffff;
+  font-size: $tertiaryFont-size;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  font-weight: bold;
+}
+
+.change {
+  opacity: 1;
+}
+
+.menu-bg {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  transition: 0.3s ease;
+  border-radius: 50%;
+  margin: 20px 10px 0px 10px;
+  background: radial-gradient(circle, #7e7b7bb9, #888888);
+}
+
+.change-bg {
+  width: 380px;
+  height: 370px;
+  transform: translate(-50%, -25%);
+}
