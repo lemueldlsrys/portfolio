@@ -1305,8 +1305,8 @@ body::-webkit-scrollbar {
 .banner {
   width: 100%;
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.576)), to(rgba(0, 0, 0, 0.344))), url(/media/BANNER2.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.576), rgba(0, 0, 0, 0.344)), url(/media/BANNER2.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.576)), to(rgba(0, 0, 0, 0.344))), url(./BANNER.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.576), rgba(0, 0, 0, 0.344)), url(./BANNER.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
